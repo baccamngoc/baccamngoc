@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH SINH VIÊN"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:background="#D3D3D3" />
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"/>
+
+    <EditText
+        android:id="@+id/editStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"/>
+
+    <EditText
+        android:id="@+id/editHometown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quê quán"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký dịch vụ thông báo qua SMS" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInsurance1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tham gia bảo hiểm y tế" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInsurance2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tham gia bảo hiểm thân thể" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTuition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký ký túc xá" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SỬA" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XÓA" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

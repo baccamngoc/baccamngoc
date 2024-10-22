@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ MÔN HỌC"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Form Input -->
+    <EditText
+        android:id="@+id/etMaMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã môn"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên môn"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etLyThuyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LÝ THUYẾT"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etThucHanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="THỰC HÀNH"
+        android:inputType="number"/>
+
+    <!-- Button Nhập Môn Học -->
+    <Button
+        android:id="@+id/btnNhapMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NHẬP MÔN HỌC"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Danh sách môn học -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <!-- TextView hiển thị tiêu đề "DANH SÁCH MÔN HỌC" -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DANH SÁCH MÔN HỌC"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textSize="18sp" />
+
+        <!-- ImageButton cho chức năng xóa -->
+        <ImageButton
+            android:id="@+id/btnXoaMonHoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Xóa"
+            android:layout_margin="16dp"
+            android:background="?android:attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SS001" />
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung" />
+
+    <TextView
+        android:id="@+id/txtOrigin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NSX: Việt Nam" />
+
+    <TextView
+        android:id="@+id/txtWarranty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BH: 1 năm" />
+
+    <TextView
+        android:id="@+id/txtPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanh toán: Tiền mặt" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK" />
+</LinearLayout>

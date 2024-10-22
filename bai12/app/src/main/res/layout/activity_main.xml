@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CAC QUOC GIA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Ten quoc gia " />
+
+    <EditText
+        android:id="@+id/edtDientich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Dien tich" />
+
+    <EditText
+        android:id="@+id/edtGdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="GDP" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAU LUC" />
+
+    <RadioButton
+        android:id="@+id/radChaua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chau A" />
+
+    <RadioButton
+        android:id="@+id/radChauau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chau Au" />
+
+    <RadioButton
+        android:id="@+id/radChauuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chau Uc" />
+
+    <RadioButton
+        android:id="@+id/radChaumy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chau My" />
+
+    <RadioButton
+        android:id="@+id/radChauphi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chau Phi " />
+
+    <Button
+        android:id="@+id/butSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/butOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <ListView
+        android:id="@+id/Listview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+
+</LinearLayout>
+

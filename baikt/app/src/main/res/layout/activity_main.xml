@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng sản xuất" />
+
+    <EditText
+        android:id="@+id/edtModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã máy" />
+
+    <EditText
+        android:id="@+id/edtOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nơi sản xuất" />
+
+    <CheckBox
+        android:id="@+id/chk1y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1Y" />
+
+    <CheckBox
+        android:id="@+id/chk2y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2Y" />
+
+    <CheckBox
+        android:id="@+id/chk3y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3Y" />
+
+    <RadioGroup
+        android:id="@+id/paymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbtnCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền mặt" />
+
+        <RadioButton
+            android:id="@+id/rbtnTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyển khoản" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+</LinearLayout>

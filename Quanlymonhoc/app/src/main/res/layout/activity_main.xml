@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tiêu đề Quản Lý Môn Học -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="QUẢN LÝ MÔN HỌC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Các trường nhập liệu -->
+    <EditText
+        android:id="@+id/edtMaMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Môn" />
+
+    <EditText
+        android:id="@+id/edtTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Môn" />
+
+    <EditText
+        android:id="@+id/edtLyThuyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LÝ THUYẾT" />
+
+    <EditText
+        android:id="@+id/edtThucHanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="THỰC HÀNH" />
+
+    <!-- Nút Nhập Môn Học -->
+    <Button
+        android:id="@+id/btnNhapMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="NHẬP MÔN HỌC" />
+
+    <!-- Danh Sách Môn Học -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="DANH SÁCH MÔN HỌC"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:contentDescription="Xóa"
+            app:srcCompat="@android:drawable/ic_delete" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+</LinearLayout>

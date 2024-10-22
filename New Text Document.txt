@@ -1,0 +1,13 @@
+baitap (them sua xoa sinh vien)
+bai 11 tu ddien anh viet 
+baitap3 (danh ba ddien thoai)(ngon)
+baitap (dnah sach sinh vien cos tham gia bao hiem khoong )
+bai12 cacs quoc gia 
+hieubai2 tien ich doi tien 
+hieu(quan ly mon hoc )
+
+a. Cho biết cấu trúc của một file dữ liệu JSON?
+b. Định dạng dữ liệu JSON có ưu, nhược điểm gì so với dữ liệu dạng XML?
+Câu 1: (2 điểm)
+a. CSDL SQLite là gì? Trình bày các bước tạo và mở một CSDL SQLite trong Android?
+b. Trình bày các bước cập nhật thông tin của một bản ghi vào CSDL SQLite?
